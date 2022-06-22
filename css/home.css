@@ -1,0 +1,37 @@
+* {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*NAVBAR*/
+
+.nav-link {
+    margin-right: 20px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+#nav {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+}
+
+#nav .navbar-brand {
+    font-size: 35px;
+}
+
+@media only screen and (min-width:1000px) {
+    #navbarToggleExternalContent {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
