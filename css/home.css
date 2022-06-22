@@ -29,6 +29,13 @@ a:focus {
     font-size: 35px;
 }
 
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 @media only screen and (min-width:1000px) {
     #navbarToggleExternalContent {
         display: flex;
